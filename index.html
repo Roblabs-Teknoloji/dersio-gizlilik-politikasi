@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dersio uygulamasının gizlilik politikası ve kişisel veri işleme açıklaması.">
+  <title>Gizlilik Politikası – Dersio</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #202124; background: #f7f8fa; }
+    body { margin: 0; padding: 32px 18px; line-height: 1.65; }
+    main { max-width: 850px; margin: 0 auto; padding: 36px clamp(22px, 6vw, 64px); background: white; border: 1px solid #e5e7eb; border-radius: 16px; }
+    h1 { line-height: 1.2; font-size: clamp(2rem, 5vw, 2.7rem); margin: 0 0 8px; }
+    h2 { margin: 30px 0 8px; font-size: 1.2rem; }
+    .updated { color: #5f6368; margin-top: 0; }
+    a { color: #1558d6; }
+    footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid #e5e7eb; color: #5f6368; font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Gizlilik Politikası</h1>
+    <p class="updated">Dersio uygulaması · Son güncelleme: 23 Ekim 2026</p>
+
+    <p>Bu politika, Dersio mobil uygulamasında kişisel verilerin nasıl işlendiğini açıklar. Geliştirici ve veri sorumlusu: Yusuf KORKMAZ - Roblabs Teknoloji. Gizlilik talepleri için <a href="mailto:info@dersio.com.tr">info@dersio.com.tr</a> adresine ulaşabilirsiniz.</p>
+
+    <h2>İşlenen veriler</h2>
+    <p>Dersio uygulamasının kaynak kodunda aşağıdaki veri türlerinin uygulama işlevlerini sağlamak üzere işlendiği görülmektedir:</p>
+    <ul>
+      <li><strong>Hesap ve profil:</strong> Firebase kullanıcı kimliği, e-posta adresi, ad ve soyad, telefon numarası, profil görseli, kullanıcı rolü ve hesap durumu. Oturum açma bilgileri Firebase Authentication hizmeti üzerinden işlenir.</li>
+      <li><strong>Öğretmen ve veli bilgileri:</strong> Telegram kullanıcı adı, okul adı ve kimliği, il/ilçe bilgileri, branş, sınıf ve veli-öğrenci bağlantısı.</li>
+      <li><strong>Öğrenci ve eğitim kayıtları:</strong> öğrenci adı ve numarası, sınıf ve okul bağlantıları, ödevler ve tamamlanma bilgileri, görevler, puanlar ve seviyeler, okuma kayıtları (kitap adı, yazar, sayfa sayısı, tarih ve notlar) ile öğretmen/veli tarafından girilen açıklamalar.</li>
+      <li><strong>Bildirim ve cihaz verileri:</strong> bildirim izni tercihi, Firebase Cloud Messaging cihaz tokenı ve bildirimlerin başlık, ileti, gönderen ve alıcı bilgileri.</li>
+      <li><strong>Kayıt ve doğrulama verileri:</strong> veli-öğrenci eşleştirme kodları ve hesap silme talebinde kullanılan tek kullanımlık doğrulama kodu.</li>
+    </ul>
+
+    <h2>Verilerin kullanım amaçları</h2>
+    <p>Bu bilgiler hesap oluşturma ve oturum açma, öğretmen ve veli profillerini yönetme, öğrenci ve sınıf kayıtlarını eşleştirme, eğitim etkinliklerini kaydetme ve görüntüleme, uygulama verilerini cihazlar arasında eşitleme, bildirim gönderme, hesap güvenliğini sağlama ve hesap silme taleplerini doğrulama amaçlarıyla kullanılır.</p>
+
+    <h2>Verilerin saklanması ve hizmet sağlayıcılar</h2>
+    <p>Uygulama, hesap ve eğitim kayıtlarını Google Firebase Authentication ve Cloud Firestore hizmetlerine gönderir. Bildirim tokenları ve bildirim işlemleri uygulama sunucusu ile Firebase Cloud Messaging üzerinden yürütülür. Hesap veya parola işlemlerine ilişkin e-postalar, uygulamada yapılandırılmış e-posta hizmeti üzerinden gönderilebilir. Hesap silme talebinde seçilen Telegram hesabına doğrulama kodu gönderilebilir.</p>
+    <p>Bu hizmet sağlayıcılar, uygulama işlevlerini sunmak için ilgili verileri teknik altyapılarında işleyebilir. Veriler reklam amacıyla satılmaz.</p>
+
+    <h2>Öğrenci verileri ve çocukların gizliliği</h2>
+    <p>Dersio’nun hedef kitlesi çocukların velileri ve öğretmenleridir; öğrenci profilleri çocuklara ait olabilir. Öğrenci adı-soyadı ve okul numaraları yalnızca ilgili öğretmen tarafından görüntülenebilir. Öğretmenler ve veliler yalnızca yetkili oldukları öğrencilerle ilgili bilgileri girmelidir. Çocukların kişisel verileri özellikle korunur ve herkese açık alanlarda paylaşılmaz.</p>
+
+    <h2>Saklama ve silme</h2>
+    <p>Hesap ve ilişkili kayıtlar hizmetin sunulması için gerekli olduğu sürece saklanır. Öğretmen veya veli hesabı uygulamadaki hesap silme işlevinden silme talebi başlatabilir; talep tek kullanımlık Telegram doğrulamasıyla korunur. Yedeklerdeki verilerin kesin saklama ve silinme süresi henüz belirlenmemiştir; süre netleştirildiğinde bu politika güncellenecektir. Silme talebi için <a href="mailto:info@dersio.com.tr">info@dersio.com.tr</a> adresine de yazabilirsiniz. Yasal yükümlülükler veya güvenlik kayıtları nedeniyle tutulması gereken veriler, ilgili gereklilik sona erene kadar saklanabilir.</p>
+
+    <h2>Güvenlik</h2>
+    <p>Hesap erişimi doğrulanmış kullanıcı oturumlarıyla sınırlandırılır ve Firestore erişimi güvenlik kurallarıyla yönetilir. Hiçbir internet aktarımı veya saklama yöntemi mutlak güvenlik garantisi vermez.</p>
+
+    <h2>KVKK kapsamındaki haklar</h2>
+    <p>Yürürlükteki mevzuat kapsamında kişisel verileriniz hakkında bilgi isteme, işlenip işlenmediğini öğrenme, yanlış veya eksik verilerin düzeltilmesini isteme, mevzuat koşulları oluştuğunda silme veya yok etme talep etme ve kanunda öngörülen diğer haklarınızı kullanma taleplerinizi <a href="mailto:info@dersio.com.tr">info@dersio.com.tr</a> adresine iletebilirsiniz.</p>
+
+    <h2>Politika değişiklikleri</h2>
+    <p>Uygulamanın veri işleme yöntemleri değiştiğinde bu politika güncellenir. Güncel sürüm bu sayfada yayımlanır.</p>
+
+    <footer>Dersio Gizlilik Politikası · Sorular için <a href="mailto:info@dersio.com.tr">info@dersio.com.tr</a></footer>
+  </main>
+</body>
+</html>
+
